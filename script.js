@@ -562,7 +562,7 @@ var cards = [
     rulesText: "Whenever a nontoken creature enters under an opponent's control, that player may pay (2). If they don't, create a Spring token. " +
     "This ability triggers only once each turn.",
     flavorText: "",
-    image: "Bouncer.png"
+    image: "images/Bouncer.png"
   },
   {
     name: "Fried Remora",
@@ -575,7 +575,7 @@ var cards = [
     rulesText: "Cumulative Upkeep (1) <br>Whenever an opponent casts a noncreature spell, that player may pay (4). If they don't, exile the top " +
     "card of your library. You may play it until the end of your next turn.",
     flavorText: "",
-    image: "FriedRemora.png"
+    image: "images/FriedRemora.png"
   },
   {
     name: "A Moment's Rest",
@@ -587,7 +587,7 @@ var cards = [
     pt: [], // leave array empty if card does not have P/T
     rulesText: "Prevent all damage that would be dealt this turn.",
     flavorText: "All are equal and all are safe in the water's edge.",
-    image: "AMomentsRest.png"
+    image: "images/AMomentsRest.png"
   },
   {
     name: "Ratling Gunners",
@@ -600,7 +600,7 @@ var cards = [
     rulesText: "Cumulative Upkeep (L) or (O) <br>At the beginning of each end step and when Ratling Gunners dies, it deals X damage to target creature " +
     "you don't control chosen at random, where X is the number of counters on it.",
     flavorText: "",
-    image: "RatlingGunners.png"
+    image: "images/RatlingGunners.png"
   },
   {
     name: "Voltage Viper",
@@ -613,7 +613,7 @@ var cards = [
     rulesText: "When this creature enters, you get (E). <br>Exhaust - (E): This creature gains deathtouch until end of turn. <br>Exhaust - (E): This " +
     "creature gains first strike until end of turn.",
     flavorText: "",
-    image: "VoltageViper.png"
+    image: "images/VoltageViper.png"
   },
   {
     name: "Mudflat Man",
@@ -625,7 +625,7 @@ var cards = [
     pt: [2, 1], // leave array empty if card does not have P/T
     rulesText: "Mudflat Man enters tapped and exerted. <br>Trample",
     flavorText: "You are what you eat",
-    image: "MudflatMan.png"
+    image: "images/MudflatMan.png"
   },
   {
     name: "Chaotic Insight",
@@ -638,7 +638,7 @@ var cards = [
     rulesText: "If you would roll one or more dice, roll that many dice plus 1 instead and ignore one of the results. <br>At the beginning of your " +
     "upkeep, you may pay (1)(L). If you do, roll a six-sided die, then draw cards and lose life equal to the result.",
     flavorText: "",
-    image: "ChaoticInsight.png"
+    image: "images/ChaoticInsight.png"
   },
   {
     name: "Card Shark",
@@ -650,7 +650,7 @@ var cards = [
     pt: [2, 1], // leave array empty if card does not have P/T
     rulesText: "When this creature enters, exile the top card of your library. Until end of turn, you may play that card. <br>Intimidate",
     flavorText: "",
-    image: "CardShark.png"
+    image: "images/CardShark.png"
   },
   {
     name: "Car Wash",
@@ -663,7 +663,7 @@ var cards = [
     rulesText: "Car Wash enters tapped unless you control a Vehicle. <br>(T): Add (L) or (A) <br>(2)(L)(A), (T): Create a 3/2 colorless Vehicle " +
     "artifact token with crew 1.",
     flavorText: "",
-    image: "CarWash.png"
+    image: "images/CarWash.png"
   },
   {
     name: "Candybot",
@@ -676,7 +676,7 @@ var cards = [
     rulesText: "When Candybot enters the battlefield and at the beginning of your upkeep, each player creates a Food token. <br>(K), (T), " +
     "sacrifice two Foods: Create a token that's a copy of Rock Candy Medallion.",
     flavorText: "",
-    image: "Candybot.png"
+    image: "images/Candybot.png"
   },
   {
     name: "Decaying Devourer",
@@ -688,7 +688,7 @@ var cards = [
     pt: [9, 4], // leave array empty if card does not have P/T
     rulesText: "Blitz (3)(L)(L)(O)(O) <br>Decayed, Annihilator 4",
     flavorText: "Its hunger is endless, its lifetime is not.",
-    image: "DecayingDevourer.png"
+    image: "images/DecayingDevourer.png"
   },
   {
     name: "Rot Fiend",
@@ -700,7 +700,7 @@ var cards = [
     pt: [2, 2], // leave array empty if card does not have P/T
     rulesText: "Rot Fiend enters with a +1/+1 counter for each mana produced by a Swamp used to cast it. <br>Menace",
     flavorText: "Empowered by the rotlands, it embodies that which we sought to leave behind.",
-    image: "RotFiend.png"
+    image: "images/RotFiend.png"
   },
   
   {

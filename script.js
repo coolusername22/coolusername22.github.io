@@ -551,6 +551,82 @@ var cards = [
     flavorText: "Not many venture inside, but all who do leave with a smile on their face.",
     image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/The%20Ringleaders%20Tent.png?v=1746749132961"
   },
+  {
+    name: "Bouncer",
+    creator: "Radio Jade",
+    type: ["Creature"],
+    type2: ["Bouncer"], // subtypes and supertypes, as well as DFC
+    mana: [2, "O", "O"],
+    colors: ["orange"], // write out color names here for clarity
+    pt: [2, 5], // leave array empty if card does not have P/T
+    rulesText: "Whenever a nontoken creature enters under an opponent's control, that player may pay (2). If they don't, create a Spring token. " +
+    "This ability triggers only once each turn.",
+    flavorText: "",
+    image: "Bouncer.png"
+  },
+  {
+    name: "Fried Remora",
+    creator: "Radio Jade",
+    type: ["Enchantment"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: ["L"],
+    colors: ["yellow"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Cumulative Upkeep (1) <br>Whenever an opponent casts a noncreature spell, that player may pay (4). If they don't, exile the top " +
+    "card of your library. You may play it until the end of your next turn.",
+    flavorText: "",
+    image: "FriedRemora.png"
+  },
+  {
+    name: "A Moment's Rest",
+    creator: "Vitral_",
+    type: ["Instant"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: ["O"],
+    colors: ["orange"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Prevent all damage that would be dealt this turn.",
+    flavorText: "All are equal and all are safe in the water's edge.",
+    image: "AMomentsRest.png"
+  },
+  {
+    name: "Ratling Gunners",
+    creator: "MunkeGutz",
+    type: ["Creature"],
+    type2: ["Rat", "Soldier"], // subtypes and supertypes, as well as DFC
+    mana: ["L", "O"],
+    colors: ["yellow", "orange"], // write out color names here for clarity
+    pt: [2, 2], // leave array empty if card does not have P/T
+    rulesText: "Cumulative Upkeep (L) or (O) <br>At the beginning of each end step and when Ratling Gunners dies, it deals X damage to target creature " +
+    "you don't control chosen at random, where X is the number of counters on it.",
+    flavorText: "",
+    image: "RatlingGunners.png"
+  },
+  {
+    name: "Voltage Viper",
+    creator: "null",
+    type: ["Creature"],
+    type2: ["Snake"], // subtypes and supertypes, as well as DFC
+    mana: ["L"],
+    colors: ["yellow"], // write out color names here for clarity
+    pt: [1, 1], // leave array empty if card does not have P/T
+    rulesText: "When this creature enters, you get (E). <br>Exhaust - (E): This creature gains deathtouch until end of turn. <br>Exhaust - (E): This " +
+    "creature gains first strike until end of turn.",
+    flavorText: "",
+    image: "VoltageViper.png"
+  },
+  {
+    name: "Mudflat Man",
+    creator: "Radio Jade",
+    type: ["Land", "Creature"],
+    type2: ["Legendary", "Mudflats", "Dwarf"], // subtypes and supertypes, as well as DFC
+    mana: [],
+    colors: ["brown"], // write out color names here for clarity
+    pt: [2, 1], // leave array empty if card does not have P/T
+    rulesText: "Mudflat Man enters tapped and exerted. <br>Trample",
+    flavorText: "You are what you eat",
+    image: "MudflatMan.png"
+  },
   
   {
     name: "WIP - HIDE CARD",

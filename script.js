@@ -627,6 +627,81 @@ var cards = [
     flavorText: "You are what you eat",
     image: "MudflatMan.png"
   },
+  {
+    name: "Chaotic Insight",
+    creator: "Insert Name Here",
+    type: ["Enchantment"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: [3, "L"],
+    colors: ["yellow"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "If you would roll one or more dice, roll that many dice plus 1 instead and ignore one of the results. <br>At the beginning of your " +
+    "upkeep, you may pay (1)(L). If you do, roll a six-sided die, then draw cards and lose life equal to the result.",
+    flavorText: "",
+    image: "ChaoticInsight.png"
+  },
+  {
+    name: "Card Shark",
+    creator: "null",
+    type: ["Creature"],
+    type2: ["Shark", "Gambler"], // subtypes and supertypes, as well as DFC
+    mana: [1, "A"],
+    colors: ["teal"], // write out color names here for clarity
+    pt: [2, 1], // leave array empty if card does not have P/T
+    rulesText: "When this creature enters, exile the top card of your library. Until end of turn, you may play that card. <br>Intimidate",
+    flavorText: "",
+    image: "CardShark.png"
+  },
+  {
+    name: "Car Wash",
+    creator: "null",
+    type: ["Land"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: [],
+    colors: ["colorless"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Car Wash enters tapped unless you control a Vehicle. <br>(T): Add (L) or (A) <br>(2)(L)(A), (T): Create a 3/2 colorless Vehicle " +
+    "artifact token with crew 1.",
+    flavorText: "",
+    image: "CarWash.png"
+  },
+  {
+    name: "Candybot",
+    creator: "Insert Name Here",
+    type: ["Artifact", "Creature"],
+    type2: ["Robot", "Employee"], // subtypes and supertypes, as well as DFC
+    mana: [1, "K"],
+    colors: ["pink"], // write out color names here for clarity
+    pt: [2, 3], // leave array empty if card does not have P/T
+    rulesText: "When Candybot enters the battlefield and at the beginning of your upkeep, each player creates a Food token. <br>(K), (T), " +
+    "sacrifice two Foods: Create a token that's a copy of Rock Candy Medallion.",
+    flavorText: "",
+    image: "Candybot.png"
+  },
+  {
+    name: "Decaying Devourer",
+    creator: "Radio Jade",
+    type: ["Creature"],
+    type2: ["Elemental", "Horror"], // subtypes and supertypes, as well as DFC
+    mana: [1, "L", "L", "O", "O"],
+    colors: ["yellow", "orange"], // write out color names here for clarity
+    pt: [9, 4], // leave array empty if card does not have P/T
+    rulesText: "Blitz (3)(L)(L)(O)(O) <br>Decayed, Annihilator 4",
+    flavorText: "Its hunger is endless, its lifetime is not.",
+    image: "DecayingDevourer.png"
+  },
+  {
+    name: "Rot Fiend",
+    creator: "Radio Jade",
+    type: ["Creature"],
+    type2: ["Goblin"], // subtypes and supertypes, as well as DFC
+    mana: [1, "O/B"],
+    colors: ["orange", "other"], // write out color names here for clarity
+    pt: [2, 2], // leave array empty if card does not have P/T
+    rulesText: "Rot Fiend enters with a +1/+1 counter for each mana produced by a Swamp used to cast it. <br>Menace",
+    flavorText: "Empowered by the rotlands, it embodies that which we sought to leave behind.",
+    image: "RotFiend.png"
+  },
   
   {
     name: "WIP - HIDE CARD",

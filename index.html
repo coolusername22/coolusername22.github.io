@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/colorfall_icon.ico?v=1746750694375" />
+    
+    <title>Colorfall - Nonsense Color Cube search</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Carrois Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carrois Gothic SC" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/style.css" />
+    
+    <!-- Discord preview: -->
+    <meta content="Colorfall - Nonsense Color Cube Search Engine" property="og:title">
+    <meta content="The greatest search engine for cards from the custom MTG set known as Nonsense Color Cube. Updated regularly." property="og:description">
+    
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div id="frame-main">
+      <h1>
+        Colorfall
+      </h1>
+      <b>Nonsense Color Cube Search Engine</b>
+      <br>
+      provided by insertnamehere23 | note: database may not have the newest cards
+      <br><br>
+      <div id="frame-search-query">
+        Name includes <input type="text" id="name-input"> |
+        Mana value <select id="mv-select">
+          <option value="less">&lt;=</option>
+          <option value="equal" selected>=</option>
+          <option value="greater">&gt;=</option>
+          <option value="x">X</option>
+        </select>
+        <input type="number" id="mv-input" min="0"> |
+        Colors <select id="color-select">
+          <option value="equal">exactly</option>
+          <option value="including">including</option>
+          <option value="excluding">excluding</option>
+        </select>
+        <input type="checkbox" id="brown-check"> brown, <input type="checkbox" id="pink-check"> pink,
+        <input type="checkbox" id="yellow-check"> yellow, <input type="checkbox" id="teal-check"> teal,
+        <input type="checkbox" id="orange-check"> orange, <input type="checkbox" id="colorless-check"> colorless,
+        <input type="checkbox" id="other-color-check"> other
+        <br>
+        Types <select id="type-select">
+          <option value="equal">exactly</option>
+          <option value="including">including</option>
+          <option value="excluding">excluding</option>
+        </select>
+        <input type="text" id="type-input"> |
+        Rules text includes <input type="text" id="rt-input">
+        | Power: <input type="number" id="power-input" min="0"> | Toughness: <input type="number" id="toughness-input" min="0">
+        <br>
+        Flavor text includes <input type="text" id="ft-input"> | Card designer: <input type="text" id="creator-input">
+        <br><br>
+        <i style="color: #222222; font-size: 0.8em;">
+          (To search for a mana symbol in rules text, put the value in parentheses, e.g. (1) or (X).
+          Mana types are brow<b>N</b>, pin<b>K</b>, ye<b>L</b>low, te<b>A</b>l, <b>O</b>range, and all regular Magic mana types.
+          The tap symbol is (T), and untap is (UT).)
+          <br>
+          (You may search for multiple card types and/or subtypes at once. Separate them with spaces.)
+        </i>
+      </div>
+      <br>
+      <div id="frame-search-results">
+        
+      </div>
+    </div>
+  </body>
+</html>

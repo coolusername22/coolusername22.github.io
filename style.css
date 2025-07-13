@@ -1,0 +1,78 @@
+body, button, input, select {
+  font-family: "Carrois Gothic", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Carrois Gothic SC", sans-serif;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  margin-left: 0em;
+  margin-right: 0em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+#frame-main {
+  position: absolute;
+  top: 1em;
+  bottom: 1em;
+  left: 1em;
+  right: 1em;
+  border: 2px solid blue;
+  background-color: #99ccff;
+  padding: 1em;
+}
+
+#frame-search-query {
+  height: 20%;
+  border: 2px solid orange;
+  background-color: #ffee99;
+  overflow-y: scroll;
+  padding: 0.5em;
+}
+
+#frame-search-results {
+  height: 55%;
+  border: 2px solid green;
+  background-color: #ccffcc;
+  overflow-y: scroll;
+  padding: 0.5em;
+}
+
+div.card-image {
+  border: 2px solid black;
+  margin: 2px;
+  padding: 4px;
+  text-align: center;
+  display: inline-block;
+}
+
+div.card-image.hide {
+  display: none;
+}
+
+.wip {
+  display: none;
+}
+
+#mv-input, #power-input, #toughness-input {
+  width: 4em;
+}
+
+#type-input {
+  width: 15em;
+}
+
+#rt-input {
+  width: 20em;
+}
+
+#ft-input {
+  width: 15em;
+}

@@ -101,7 +101,7 @@ var cards = [
     pt: [4, 2], // leave array empty if card does not have P/T
     rulesText: "When this enters, create a Cake token. <br>Huglink",
     flavorText: "...That nobody can deny!",
-    image: "AJollyGoodFellow.png"
+    image: "images/AJollyGoodFellow.png"
   },
   {
     name: "Reality Stinger",

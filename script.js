@@ -95,13 +95,13 @@ var cards = [
     name: "A Jolly Good Fellow",
     creator: "The Madwomen",
     type: ["Creature"],
-    type2: ["Gremlin", "Sckrunkly"], // subtypes and supertypes, as well as DFC
+    type2: ["Gremlin"], // subtypes and supertypes, as well as DFC
     mana: ["K", "K"],
     colors: ["pink"], // write out color names here for clarity
     pt: [4, 2], // leave array empty if card does not have P/T
     rulesText: "When this enters, create a Cake token. <br>Huglink",
     flavorText: "...That nobody can deny!",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/A%20Jolly%20Good%20Fellow.png?v=1746732086440"
+    image: "AJollyGoodFellow.png"
   },
   {
     name: "Reality Stinger",

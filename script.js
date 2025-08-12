@@ -702,6 +702,55 @@ var cards = [
     flavorText: "Empowered by the rotlands, it embodies that which we sought to leave behind.",
     image: "images/RotFiend.png"
   },
+  {
+    name: "Ferris Wheel",
+    creator: "null",
+    type: ["Land"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: [],
+    colors: ["colorless"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Car Wash enters tapped unless an opponent gained life this turn. <br>(T): Add (K) or (L). <br>Exhaust - (3)(K)(L), (T): " +
+    "Each player may discard their hand and draw five cards.",
+    flavorText: "",
+    image: "images/FerrisWheel.png"
+  },
+  {
+    name: "Elder of the Order",
+    creator: "null",
+    type: ["Creature"],
+    type2: ["Orc", "Monk"], // subtypes and supertypes, as well as DFC
+    mana: ["O"],
+    colors: ["orange"], // write out color names here for clarity
+    pt: [2, 4], // leave array empty if card does not have P/T
+    rulesText: "Cumulative upkeep - Put a -1/-1 counter on this creature. <br>Vigilance",
+    flavorText: "The oldest and wisest of the Order are also often the first into battle",
+    image: "images/ElderOfTheOrder.png"
+  },
+  {
+    name: "Fossilize",
+    creator: "Insert Name Here",
+    type: ["Sorcery"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: [4, "N"],
+    colors: ["brown"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Exile target permanent with two or more abilities. Create a token that's a copy of Fossil Medallion.",
+    flavorText: "",
+    image: "images/Fossilize.png"
+  },
+  {
+    name: "Electrospectre",
+    creator: "MunkeGutz",
+    type: ["Creature"],
+    type2: ["Spirit", "Elemental"], // subtypes and supertypes, as well as DFC
+    mana: ["L"],
+    colors: ["yellow"], // write out color names here for clarity
+    pt: [1, 1], // leave array empty if card does not have P/T
+    rulesText: "First strike, haste <br>Voltage 4 - As long as you have 4 or more (E), Electrospectre gets +2/+1 and has trample.",
+    flavorText: "",
+    image: "images/Electrospectre.png"
+  },
   
   {
     name: "WIP - HIDE CARD",

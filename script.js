@@ -372,13 +372,13 @@ var cards = [
     name: "Augius, Council Grandmaster",
     creator: "ThePixelFerret",
     type: ["Creature"],
-    type2: ["Legendary", "Human", "Bishop"], // subtypes and supertypes, as well as DFC
+    type2: ["Legendary", "Human", "Cleric"], // subtypes and supertypes, as well as DFC
     mana: [2, "A", "A"],
     colors: ["teal"], // write out color names here for clarity
     pt: [2, 3], // leave array empty if card does not have P/T
     rulesText: "Whenever you cast a spell, create a Treasure token. <br>Coerce",
     flavorText: "The Grandmaster is a conduit of prejudice, spite so tempered that it dispenses the will of its god without a second thought.",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Augius%20Council%20Grandmaster.png?v=1746745369831"
+    image: "images/AugiusCouncilGrandmaster2.png"
   },
   {
     name: "Hot Potato",
@@ -762,6 +762,44 @@ var cards = [
     rulesText: "At the beginning of your upkeep, you get (E). <br>(E), (T): Add one mana of any color.",
     flavorText: "\"Only a fool would try to catch lightning in a bottle. That's why I brought a jar.\"",
     image: "images/Electrospectre.png"
+  },
+  {
+    name: "Dwarven Mage",
+    creator: "MunkeGutz",
+    type: ["Creature"],
+    type2: ["Dwarf", "Wizard"], // subtypes and supertypes, as well as DFC
+    mana: [2, "N", "N"],
+    colors: ["brown"], // write out color names here for clarity
+    pt: [3, 3], // leave array empty if card does not have P/T
+    rulesText: "Non-wordy spells you cast cost (1) less to cast for each Dwarf you control.",
+    flavorText: "Dwarven spells are always concise and always devastating.",
+    image: "images/DwarvenMage.png"
+  },
+  {
+    name: "Promotion",
+    creator: "Vitral_",
+    type: ["Instant"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: [2, "A", "A"],
+    colors: ["teal"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "This spell costs (1)(A) less to cast if it targets an unblocked creature you control that dealt damage this turn. <br>Target creature you " +
+    "control becomes a copy of target creature or creature card in a graveyard.",
+    flavorText: "Mobility within the council is zero sum.",
+    image: "images/Promotion.png"
+  },
+  {
+    name: "Lunara, Patient Schemer",
+    creator: "The Madwomen",
+    type: ["Planeswalker"],
+    type2: ["Legendary", "Lunara"], // subtypes and supertypes, as well as DFC
+    mana: [3, "A", "A"],
+    colors: ["teal"], // write out color names here for clarity
+    pt: [-1, 7], // leave array empty if card does not have P/T
+    rulesText: "(+2): Create two 2/2 Bird creature tokens with flying and \"Exhaust - Add (O) or (L).\" <br>(-3): Return target creature to its owner's hand. <br>" +
+    "(-11): Each opponent reveals their hand. Put each creature card from it under your team's control.",
+    flavorText: "",
+    image: "images/LunaraPatientSchemer.png"
   },
   
   {

@@ -751,6 +751,18 @@ var cards = [
     flavorText: "",
     image: "images/Electrospectre.png"
   },
+  {
+    name: "Lightning Catchers",
+    creator: "MunkeGutz",
+    type: ["Creature"],
+    type2: ["Human", "Wizard"], // subtypes and supertypes, as well as DFC
+    mana: [1, "L"],
+    colors: ["yellow"], // write out color names here for clarity
+    pt: [1, 3], // leave array empty if card does not have P/T
+    rulesText: "At the beginning of your upkeep, you get (E). <br>(E), (T): Add one mana of any color.",
+    flavorText: "\"Only a fool would try to catch lightning in a bottle. That's why I brought a jar.\"",
+    image: "images/Electrospectre.png"
+  },
   
   {
     name: "WIP - HIDE CARD",

@@ -801,6 +801,19 @@ var cards = [
     flavorText: "",
     image: "images/LunaraPatientSchemer.png"
   },
+  {
+    name: "Quasicausal Battery",
+    creator: "Vitral_",
+    type: ["Artifact"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: [1, "L"],
+    colors: ["yellow"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Whenever this artifact enters or leaves the battlefield, you get (E). <br>Pay X (E) and X life, sacrifice this artifact: Return target creature card " +
+    "with mana value X or less from your graveyard to the battlefield tapped with a battle cry counter on it.",
+    flavorText: "",
+    image: "images/QuasicausalBattery.png"
+  },
   
   {
     name: "WIP - HIDE CARD",

@@ -761,7 +761,7 @@ var cards = [
     pt: [1, 3], // leave array empty if card does not have P/T
     rulesText: "At the beginning of your upkeep, you get (E). <br>(E), (T): Add one mana of any color.",
     flavorText: "\"Only a fool would try to catch lightning in a bottle. That's why I brought a jar.\"",
-    image: "images/Electrospectre.png"
+    image: "images/LightningCatchers.png"
   },
   {
     name: "Dwarven Mage",

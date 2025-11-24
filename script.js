@@ -1040,7 +1040,24 @@ for (var i = 0; i < cards.length; i ++) {
   var setWidth = cardImgWidth;
   if (cards[i].type2.includes("DFC")) setWidth *= 2;
   nextCardHTML += "<b>" + cards[i].name + "</b><br>by " + cards[i].creator;
-  nextCardHTML += '<br><img src="' + cards[i].image + '" width="' + setWidth + '">';
+  nextCardHTML += '<br><img src="' + cards[i].image + '" width="' + setWidth + '"';
+  var cardDesc = cards[i].name;
+  for (var j = 0; j < cards[i].mana.length; j ++) {
+    cardDesc += "(" + cards[i].mana[j] + ")";
+  }
+  cardDesc += "&#010;";
+  for (var j = 0; j < cards[i].type.length; j ++) {
+    cardDesc += cards[i].type[j] + " ";
+  }
+  cardDesc += "/ "
+  for (var j = 0; j < cards[i].type2.length; j ++) {
+    cardDesc += cards[i].type2[j] + " ";
+  }
+  cardDesc += "&#010;" + cards[i].rulesText + "&#010;";
+  if (cards[i].pt.length == 2) cardDesc += cards[i].pt[0] + "/" + cards[i].pt[1];
+  else if (cards[i].pt.length > 0) cardDesc += cards[i].pt;
+  nextCardHTML += 'title="' + cardDesc + '"';
+  nextCardHTML += '>';
   nextCardHTML += "</div>";
   
   resultFrame.innerHTML += nextCardHTML;

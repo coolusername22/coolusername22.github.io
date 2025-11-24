@@ -1056,7 +1056,7 @@ for (var i = 0; i < cards.length; i ++) {
   cardDesc += "&#010;" + cards[i].rulesText + "&#010;";
   if (cards[i].pt.length == 2) cardDesc += cards[i].pt[0] + "/" + cards[i].pt[1];
   else if (cards[i].pt.length > 0) cardDesc += cards[i].pt;
-  cardDesc = cardDesc.replaceAll('"', '”"); // add fake quotes to prevent ending the title attribute prematurely
+  cardDesc = cardDesc.replaceAll('"', '”'); // add fake quotes to prevent ending the title attribute prematurely
   nextCardHTML += 'title="' + cardDesc + '" alt="' + cardDesc + '"';
   nextCardHTML += '>';
   nextCardHTML += "</div>";

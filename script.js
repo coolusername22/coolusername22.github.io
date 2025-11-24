@@ -814,6 +814,54 @@ var cards = [
     flavorText: "",
     image: "images/QuasicausalBattery.png"
   },
+  {
+    name: "Reject the Sermon",
+    creator: "The Madwomen",
+    type: ["Instant"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: ["N"],
+    colors: ["brown"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Destroy target religious creature. <br>Mudflatscycling (N)",
+    flavorText: "\"If ya can't see it, it ain't there.\" -Dwarven expression",
+    image: "images/RejectTheSermon.png"
+  },
+  {
+    name: "Ashen Colossus",
+    creator: "Insert Name Here",
+    type: ["Creature"],
+    type2: ["Elemental", "Zombie"], // subtypes and supertypes, as well as DFC
+    mana: [3, "O", "O", "N", "N"],
+    colors: ["orange", "brown"], // write out color names here for clarity
+    pt: [11, 9], // leave array empty if card does not have P/T
+    rulesText: "Concerted <br>Menace <br>Rot 3",
+    flavorText: "",
+    image: "images/AshenColossus.png"
+  },
+  {
+    name: "Reduce to Caricature",
+    creator: "The Madwomen",
+    type: ["Sorcery"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: ["L"],
+    colors: ["yellow"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Exaggerate target creature an opponent controls up to three times until end of turn. <br>Draw a card.",
+    flavorText: "\"If ya can't see it, it ain't there.\" -Dwarven expression",
+    image: "images/ReduceToCaricature.png"
+  },
+  {
+    name: "Instant Goblin",
+    creator: "Radio Jade",
+    type: ["Kindred", "Instant"],
+    type2: ["Goblin"], // subtypes and supertypes, as well as DFC
+    mana: ["K/L"],
+    colors: ["pink", "yellow"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Create a 1/1 pink and yellow Goblin creature token.",
+    flavorText: "A goblin at instant is worth two at sorcery.",
+    image: "images/InstantGoblin.png"
+  },
   
   {
     name: "WIP - HIDE CARD",

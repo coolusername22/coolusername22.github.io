@@ -796,7 +796,7 @@ var cards = [
     mana: [3, "A", "A"],
     colors: ["teal"], // write out color names here for clarity
     pt: [-1, 7], // leave array empty if card does not have P/T
-    rulesText: "(+2): Create two 2/2 Bird creature tokens with flying and \"Exhaust - Add (O) or (L).\" <br>(-3): Return target creature to its owner's hand. <br>" +
+    rulesText: "(+2): Create two 2/2 Bird creature tokens with flying and \"Exhaust - (T): Add (O) or (A).\" <br>(-3): Return target creature to its owner's hand. <br>" +
     "(-11): Each opponent reveals their hand. Put each creature card from it under your team's control.",
     flavorText: "",
     image: "images/LunaraPatientSchemer.png"
@@ -986,6 +986,103 @@ var cards = [
     flavorText: "",
     image: "images/ScaleSerpentOfSteps.png"
   },
+  {
+    name: "Dwarven Champion",
+    creator: "null",
+    type: ["Creature"],
+    type2: ["Dwarf", "Warrior"], // subtypes and supertypes, as well as DFC
+    mana: [2, "N"],
+    colors: ["brown"], // write out color names here for clarity
+    pt: [0, 3], // leave array empty if card does not have P/T
+    rulesText: "This creature's power is equal to the number of nonland non-wordy permanents you control.",
+    flavorText: "",
+    image: "images/DwarvenChampion.png"
+  },
+  {
+    name: "Strike Gold",
+    creator: "null",
+    type: ["Sorcery"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: ["N", "N"],
+    colors: ["brown"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Draw a card. <br>Create two tapped Treasure tokens.",
+    flavorText: "",
+    image: "images/StrikeGold.png"
+  },
+  {
+    name: "Guardian of Lost Seas",
+    creator: "null",
+    type: ["Creature"],
+    type2: ["Crab", "Spirit"], // subtypes and supertypes, as well as DFC
+    mana: ["A", "A"],
+    colors: ["teal"], // write out color names here for clarity
+    pt: [3, 2], // leave array empty if card does not have P/T
+    rulesText: "Drought - At the beginning of your end step, if you haven't played a land this turn, you may exile the top card of your library. You may " + 
+      "play lands exiled this way for as long as they remain exiled this way.",
+    flavorText: "",
+    image: "images/GuardianOfLostSeas.png"
+  },
+  {
+    name: "Team-Building Exercise",
+    creator: "null",
+    type: ["Sorcery"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: [2, "K"],
+    colors: ["pink"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Choose two target creatures controlled by players on the same team. Each one goes on an adventure.",
+    flavorText: "",
+    image: "images/TeamBuildingExercise.png"
+  },
+  {
+    name: "Vengeful Hand",
+    creator: "null",
+    type: ["Sorcery"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: ["O"],
+    colors: [], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Target creature you control gets +5/+5 and decayed until end of turn.",
+    flavorText: "",
+    image: "images/VengefulHand.png"
+  },
+  {
+    name: "Grasp of the Lost Seas",
+    creator: "null",
+    type: ["Enchantment"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: [2, "A"],
+    colors: ["teal"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Drought - At the beginning of your end step, if you haven't played a land this turn, you may sacrifice this enchantment. If you do, destroy target creature.",
+    flavorText: "",
+    image: "images/GraspOfTheLostSeas.png"
+  },
+  {
+    name: "Ember Elemental",
+    creator: "null",
+    type: ["Creature"],
+    type2: ["Elemental"], // subtypes and supertypes, as well as DFC
+    mana: ["O/B"],
+    colors: ["orange", "other"], // write out color names here for clarity
+    pt: [2, 2], // leave array empty if card does not have P/T
+    rulesText: "Trample, haste <br>At the beginning of each opponent's upkeep, sacrifice this creature. <br>Warp (1)(O/B)",
+    flavorText: "",
+    image: "images/EmberElemental.png"
+  },
+  {
+    name: "Find Meaning",
+    creator: "null",
+    type: ["Sorcery"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: ["2/L", "2/L", "2/L"],
+    colors: ["yellow"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Target creature connives 3.",
+    flavorText: "",
+    image: "images/FindMeaning.png"
+  },
   
   {
     name: "WIP - HIDE CARD",
@@ -1057,7 +1154,10 @@ for (var i = 0; i < cards.length; i ++) {
   if (cards[i].pt.length == 2) cardDesc += cards[i].pt[0] + "/" + cards[i].pt[1];
   else if (cards[i].pt.length > 0) cardDesc += cards[i].pt;
   cardDesc = cardDesc.replaceAll('"', '”'); // add fake quotes to prevent ending the title attribute prematurely
-  nextCardHTML += 'title="' + cardDesc + '" alt="' + cardDesc + '"';
+  cardDesc = cardDesc.replaceAll('<br>', '&#010;'); // replace line break tags with title-compatible line breaks, for easier reading
+  nextCardHTML += ' title="' + cardDesc + '"';
+  // should maybe do something else with the line breaks on this line? not sure how alt text works
+  nextCardHTML += ' alt="' + cardDesc + '"';
   nextCardHTML += '>';
   nextCardHTML += "</div>";
   

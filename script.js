@@ -862,6 +862,130 @@ var cards = [
     flavorText: "A goblin at instant is worth two at sorcery.",
     image: "images/InstantGoblin.png"
   },
+  {
+    name: "Robo-Cone",
+    creator: "Radio Jade",
+    type: ["Kindred", "Artifact"],
+    type2: ["Zombie", "Vehicle"], // subtypes and supertypes, as well as DFC
+    mana: [2, "O"],
+    colors: ["orange"], // write out color names here for clarity
+    pt: [5, 5], // leave array empty if card does not have P/T
+    rulesText: "Trample, absorb 2 <br>Whenever a creature you control dies or rots, you may have this vehicle become an artifact creature until end of turn.",
+    flavorText: "\"Zombie engineers considered the orange cone the height of zombie protective technology. It wasn't until they perfected the design for the Robo-Cone " + 
+      "that someone remembered the bucket.\"",
+    image: "images/RoboCone.png"
+  },
+  {
+    name: "Reincarnate",
+    creator: "The Madwomen",
+    type: ["Instant"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: ["O"],
+    colors: ["orange"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Target creature gets +2/+0 until end of turn. When that creature dies this turn, exile it, then discover X, where X is that creature's mana value.",
+    flavorText: "\"Death is not an end, my friend, in the same way birth is not a beginning.\" -Daoping, Puller of Strings",
+    image: "images/Reincarnate.png"
+  },
+  {
+    name: "Tricky Gnomes",
+    creator: "The Madwomen",
+    type: ["Creature"],
+    type2: ["Gnome", "Rogue"], // subtypes and supertypes, as well as DFC
+    mana: [1, "K"],
+    colors: ["pink"], // write out color names here for clarity
+    pt: [2, 1], // leave array empty if card does not have P/T
+    rulesText: "Flash <br>This creature can't block. <br>Tripwire - When this creature enters, remove target attacking creature from combat. Tap that creature and put a " + 
+      "stun counter on it.",
+    flavorText: "Fun of all kinds can be had at the circus... even the more cruel kind.",
+    image: "images/TrickyGnomes.png"
+  },
+  {
+    name: "Strike Twice",
+    creator: "MunkeGutz",
+    type: ["Instant"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: [1, "L"],
+    colors: ["yellow"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Strike Twice deals 2 damage to any target. <br>Finale 2 - At the beginning of your end step, if you cast two or more spells this turn, you may exile " +
+    "Strike Twice from your graveyard. If you do, Strike Twice deals 2 damage to any target.",
+    flavorText: "",
+    image: "images/StrikeTwice.png"
+  },
+  {
+    name: "Oil Well",
+    creator: "Sp1cyP3pp3r",
+    type: ["Artifact"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: [2, "N", "N"],
+    colors: ["brown"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "(T): Put an oil counter on Oil Well. Then, discover X, where X is the number of oil counters on Oil Well.",
+    flavorText: "",
+    image: "images/OilWell.png"
+  },
+  {
+    name: "Dwarven Duellist",
+    creator: "null",
+    type: ["Creature"],
+    type2: ["Dwarf", "Mercenary"], // subtypes and supertypes, as well as DFC
+    mana: [3, "N"],
+    colors: ["brown"], // write out color names here for clarity
+    pt: [2, 2], // leave array empty if card does not have P/T
+    rulesText: "Exalted, exalted",
+    flavorText: "",
+    image: "images/DwarvenDuellist.png"
+  },
+  {
+    name: "Sugma's Curse",
+    creator: "null",
+    type: ["Enchantment"],
+    type2: ["Aura"], // subtypes and supertypes, as well as DFC
+    mana: ["N/B"],
+    colors: ["brown", "other"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Enchant creature <br>Enchanted creature has deathtouch.",
+    flavorText: "",
+    image: "images/SugmasCurse.png"
+  },
+  {
+    name: "Ancient Ritual",
+    creator: "null",
+    type: ["Instant"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: ["O"],
+    colors: ["orange"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Add (B)(B)(B)",
+    flavorText: "",
+    image: "images/AncientRitual.png"
+  },
+  {
+    name: "Loneliness",
+    creator: "null",
+    type: ["Creature"],
+    type2: ["Incarnation"], // subtypes and supertypes, as well as DFC
+    mana: ["O", "A"],
+    colors: ["orange", "teal"], // write out color names here for clarity
+    pt: [2, 2], // leave array empty if card does not have P/T
+    rulesText: "At the beginning of your upkeep, draw two cards. <br>At the beginning of your end step, exile your hand and graveyard.",
+    flavorText: "",
+    image: "images/Loneliness.png"
+  },
+  {
+    name: "Scale, Serpent of Steps",
+    creator: "null",
+    type: ["Creature"],
+    type2: ["Legendary", "Serpent"], // subtypes and supertypes, as well as DFC
+    mana: [2, "A", "A"],
+    colors: ["teal"], // write out color names here for clarity
+    pt: [3, 3], // leave array empty if card does not have P/T
+    rulesText: "Trample <br>Ascend <br>At the beginning of your end step, if you've descended this turn and have the city's blessing, roll a six-sided dice. " + 
+      "Put +1/+1 counters on Scale equal to the result.",
+    flavorText: "",
+    image: "images/ScaleSerpentOfSteps.png"
+  },
   
   {
     name: "WIP - HIDE CARD",

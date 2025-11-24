@@ -1041,11 +1041,11 @@ for (var i = 0; i < cards.length; i ++) {
   if (cards[i].type2.includes("DFC")) setWidth *= 2;
   nextCardHTML += "<b>" + cards[i].name + "</b><br>by " + cards[i].creator;
   nextCardHTML += '<br><img src="' + cards[i].image + '" width="' + setWidth + '"';
-  var cardDesc = cards[i].name;
+  var cardDesc = cards[i].name + " ";
   for (var j = 0; j < cards[i].mana.length; j ++) {
     cardDesc += "(" + cards[i].mana[j] + ")";
   }
-  cardDesc += "&#010;";
+  cardDesc += "&#010;"; // line break within title text
   for (var j = 0; j < cards[i].type.length; j ++) {
     cardDesc += cards[i].type[j] + " ";
   }
@@ -1056,7 +1056,8 @@ for (var i = 0; i < cards.length; i ++) {
   cardDesc += "&#010;" + cards[i].rulesText + "&#010;";
   if (cards[i].pt.length == 2) cardDesc += cards[i].pt[0] + "/" + cards[i].pt[1];
   else if (cards[i].pt.length > 0) cardDesc += cards[i].pt;
-  nextCardHTML += 'title="' + cardDesc + '"';
+  cardDesc = cardDesc.replaceAll('"', '”"); // add fake quotes to prevent ending the title attribute prematurely
+  nextCardHTML += 'title="' + cardDesc + '" alt="' + cardDesc + '"';
   nextCardHTML += '>';
   nextCardHTML += "</div>";
   

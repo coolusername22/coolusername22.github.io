@@ -34,7 +34,7 @@ var cards = [
     type2: ["Giant", "Salamander"], // subtypes and supertypes, as well as DFC
     mana: [1, "N"],
     colors: ["brown"], // write out color names here for clarity
-    pt: [1, 3], // leave array empty if card does not have P/T
+    pt: [3, 2], // leave array empty if card does not have P/T
     rulesText: "Nonbasic landwalk",
     flavorText: "",
     image: "images/GiantSalamander.png"

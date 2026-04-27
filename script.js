@@ -1083,6 +1083,54 @@ var cards = [
     flavorText: "",
     image: "images/FindMeaning.png"
   },
+  {
+    name: "Field's Revenge",
+    creator: "null",
+    type: ["Sorcery"],
+    type2: [], // subtypes and supertypes, as well as DFC
+    mana: [1, "N"],
+    colors: ["brown"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Target creature gets +X/+X until end of turn, where X is the number of lands you control.",
+    flavorText: "",
+    image: "images/FieldsRevenge.png"
+  },
+  {
+    name: "Overcharged Eel",
+    creator: "null",
+    type: ["Creature"],
+    type2: ["Fish", "Hydra"], // subtypes and supertypes, as well as DFC
+    mana: [2, "L"],
+    colors: ["yellow"], // write out color names here for clarity
+    pt: [3, 2], // leave array empty if card does not have P/T
+    rulesText: "Trample <br>Whenever this creature deals combat damage to a player, you get that many (E).",
+    flavorText: "",
+    image: "images/OverchargedEel.png"
+  },
+  {
+    name: "FacelessOutlander",
+    creator: "null",
+    type: ["Creature"],
+    type2: ["Shapeshifter", "Scout"], // subtypes and supertypes, as well as DFC
+    mana: ["A", "A"],
+    colors: ["teal"], // write out color names here for clarity
+    pt: [], // leave array empty if card does not have P/T
+    rulesText: "Protection from creatures",
+    flavorText: "Many have come in search of the seas lost to time, but none have returned. Some have lost their lives, and some have lost even more.",
+    image: "images/FacelessOutlander.png"
+  },
+  {
+    name: "Totems of Togetherness",
+    creator: "The Madwomen",
+    type: ["Artifact", "Creature"],
+    type2: ["Toy"], // subtypes and supertypes, as well as DFC
+    mana: [3],
+    colors: ["colorless"], // write out color names here for clarity
+    pt: [2, 5], // leave array empty if card does not have P/T
+    rulesText: "Defender, lifelink <br>Instant and sorcery spells your team controls have assist.",
+    flavorText: "",
+    image: "images/FindMeaning.png"
+  },
   
   {
     name: "WIP - HIDE CARD",

@@ -1129,7 +1129,7 @@ var cards = [
     pt: [2, 5], // leave array empty if card does not have P/T
     rulesText: "Defender, lifelink <br>Instant and sorcery spells your team controls have assist.",
     flavorText: "",
-    image: "images/FindMeaning.png"
+    image: "images/TotemsOfTogetherness.png"
   },
   
   {

@@ -11,7 +11,7 @@ var cards = [
     pt: [1, 3], // leave array empty if card does not have P/T
     rulesText: "Vigilance <br>Wordy spells you cast cost (1) more to cast.",
     flavorText: "\"The tomes have little room for your monologuing\"",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/image%20(1).webp?v=1746664934825"
+    image: "images/DwarvenScribe.png"
   },
   {
     name: "Pin Down",
@@ -25,7 +25,7 @@ var cards = [
     "<br>- Exile target instant or sorcery spell, then return it to the battlefield under its owner's control." +
     "<br>- All basic lands gain shroud until end of turn.",
     flavorText: "",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Pin%20Down.png?v=1746731051093"
+    image: "images/PinDown.png"
   },
   {
     name: "Giant Salamander",
@@ -37,7 +37,7 @@ var cards = [
     pt: [1, 3], // leave array empty if card does not have P/T
     rulesText: "Nonbasic landwalk",
     flavorText: "",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Giant%20Salamander.png?v=1746731110295"
+    image: "images/GiantSalamander.png"
   },
   {
     name: "End the Masquerade",
@@ -52,7 +52,7 @@ var cards = [
     flavorText: "\"Indeed, it's time. We have all laid aside disguise but you.\"" +
     "<br>\"I wear no mask.\"<br>\"No mask? No mask!\"" +
     "<br>- The King in Yellow, Act I, Scene II",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/End%20the%20Masquerade.png?v=1746731113593"
+    image: "images/EndTheMasquerade.png"
   },
   {
     name: "Giant Scarecrow",
@@ -64,7 +64,7 @@ var cards = [
     pt: [6, 6], // leave array empty if card does not have P/T
     rulesText: "Trample",
     flavorText: "\"Holy shit\" -Captain Storm",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Giant%20Scarecrow.png?v=1746731117985"
+    image: "images/GiantScarecrow.png"
   },
   {
     name: "Crapshoot",
@@ -77,7 +77,7 @@ var cards = [
     rulesText: "Counter target spell. Its controller may roll 2d6. If they roll a 7 or an 11, they create three Treasure tokens. " +
     "Otherwise, they create one of those tokens.",
     flavorText: "",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Crapshoot%20v2.png?v=1746744900288"
+    image: "images/Crapshoot.png"
   },
   {
     name: "Dwarven Instigators",

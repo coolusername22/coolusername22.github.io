@@ -89,7 +89,7 @@ var cards = [
     pt: [4, 2], // leave array empty if card does not have P/T
     rulesText: "Provoke, provoke",
     flavorText: "\"You over there, with the short beard!\"",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Dwarven%20Instigators.png?v=1746732083279"
+    image: "images/DwarvenInstigators.png"
   },
   {
     name: "A Jolly Good Fellow",
@@ -113,7 +113,7 @@ var cards = [
     pt: [2, 2], // leave array empty if card does not have P/T
     rulesText: "When Reality Stinger enters, target creature gains vanishing. Put 3 time counters on it.",
     flavorText: "Lurking in the corridors between worlds, it puts an end to those who do not belong.",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Reality%20Stinger.png?v=1746732093448"
+    image: "images/RealityStinger.png"
   },
   {
     name: "Lightning-Flinger",
@@ -126,7 +126,7 @@ var cards = [
     rulesText: "When this enters, it deals 2 damage to target player chosen at random." +
     "<br>Whenever you take damage from a source you control, this creature gets +2/+0 and gains trample until end of turn.",
     flavorText: "\"More-more power, yes-yes!\"",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Lightning%20Flinger.png?v=1746732096552"
+    image: "images/LightningFlinger.png"
   },
   {
     name: "Balloon Dragon",
@@ -139,7 +139,7 @@ var cards = [
     rulesText: "Flying" +
     "<br>If all players' combined life total is 100 or more, Balloon Dragon has base power and toughness 100/100.",
     flavorText: "Never underestimate the versatility of a clown's talents.",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Balloon%20Dragon.png?v=1746732101913"
+    image: "images/BalloonDragon.png"
   },
   {
     name: "Jolt to Wakefulness",
@@ -153,7 +153,7 @@ var cards = [
     "Otherwise, draw a card. <br>Madness (0)",
     flavorText: "\"I saw the stars themselves. Their light was as black as the space between them, and they..." +
     "Gods help me, they were beautiful.\"",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Jolt%20to%20Wakefulness.png?v=1746732105898"
+    image: "images/JoltToWakefulness.png"
   },
   {
     name: "Man Opener",
@@ -165,7 +165,7 @@ var cards = [
     pt: [2, 2], // leave array empty if card does not have P/T
     rulesText: "When Man Opener enters, destroy target creature.",
     flavorText: "",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Man%20Opener.png?v=1746741786974"
+    image: "images/ManOpener.png"
   },
   {
     name: "Kindred of Rot",
@@ -178,7 +178,7 @@ var cards = [
     rulesText: "First strike <br>Whenever a triggered ability causes you to sacrifice a permanent," +
     "put a +1/+1 counter on Kindred of Rot.",
     flavorText: "",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Kindred%20of%20Rot.png?v=1746741789376"
+    image: "images/KindredOfRot.png"
   },
   {
     name: "Trollish Justice",
@@ -191,7 +191,7 @@ var cards = [
     rulesText: "Flip a coin. If it comes up heads, counter target creature spell. " + 
     "Otherwise, counter target creature spell.",
     flavorText: "\"Coin? Surely you jest, the prosecution sees no coin.\"",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Trollish%20Justice.png?v=1746741791428"
+    image: "images/TrollishJustice.png"
   },
   {
     name: "Sugma, Hidden Below",
@@ -205,7 +205,7 @@ var cards = [
     flavorText: "A common joke among the dwarves was, whenever an outsider would ask what Sugma was, to respond with " +
     "\"sugma balls\" or something akin to it. The dwarves loved this joke, as it was an easy way to dodge the question... " +
     "As well as ignore the horrors they had created.",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Sugma%20Hidden%20Below.png?v=1746742185644"
+    image: "images/SugmaHiddenBelow.png"
   },
   {
     name: "Piolence",
@@ -218,7 +218,7 @@ var cards = [
     rulesText: "Exile target attacking creature, then return it to the battlefield under its owner's control. " +
     "Its owner creates a Food token and you draw a card.",
     flavorText: "",
-    image: "https://cdn.glitch.global/7b568555-0956-486a-ba6c-74d510dc659f/Piolence.png?v=1746742187373"
+    image: "images/Piolence.png"
   },
   {
     name: "Clown Heretic",
